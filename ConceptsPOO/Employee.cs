@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ConceptsPOO
 {
-    public abstract class Employee
+    public abstract class Employee :IPay
     {
         public int Id { get; set; }
         public string FirsName { get; set; }
